@@ -347,7 +347,7 @@ chatbox.scrollTo(0, chatbox.scrollHeight);
             chatbox.appendChild(audioLi);
             chatbox.scrollTo(0, chatbox.scrollHeight);
             }else {
-                const API_KEY = "AIzaSyA4kp656ozNAJiy85bc4aNmBbtEnQtPusg";  
+                const API_KEY = "GOOGLE API_KEY";  
                 const genAI = new GoogleGenerativeAI(API_KEY);
                // const generationConfig = {
                   //  stopSequences: ["red"],
