@@ -53,7 +53,7 @@
         var button = document.getElementById("play");
         var buttonstop = document.getElementById("stop");
         button.innerHTML = `<button class="btn btn-danger custom-button"><span class="material-icons">mic</span></button>`;
-        const API_KEY = "AIzaSyA4kp656ozNAJiy85bc4aNmBbtEnQtPusg";  
+        const API_KEY = "GOOGLE API_KEY";  
         const genAI = new GoogleGenerativeAI(API_KEY);
 
         async function run(query) {
